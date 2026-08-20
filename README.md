@@ -15,18 +15,6 @@ The goal of this project is to automate EC2 instance management and help reduce 
 
 ---
 
-## 🏗️ Architecture
-
-   Amazon EventBridge Scheduler
-            ↓
-     AWS Lambda
-            ↓
-    EC2 Instances
-            ↓
-    AutoSchedule=true
-
----
-
 ☁️ AWS Services Used
 - Amazon EC2 – Compute instances
 - AWS Lambda – Serverless automation
@@ -48,3 +36,15 @@ The Lambda execution role uses least privilege permissions.
 Start and stop permissions are restricted to EC2 instances with:
 
 AutoSchedule=true
+
+---
+
+## 🏗️ Architecture
+```text
+   Amazon EventBridge Scheduler
+            ↓
+     AWS Lambda
+            ↓
+    EC2 Instances
+            ↓
+    AutoSchedule=true
