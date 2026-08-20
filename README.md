@@ -100,21 +100,6 @@ Runs at 8:00 AM and starts the tagged EC2 instances.
 
 ---
 
-📂 Project Structure
-- serverless-ec2-scheduler/
-│
-├── README.md
-├── lambda_function.py
-├── iam-policy.json
-│
-├── events/
-│   ├── start-event.json
-│   └── stop-event.json
-│
-└── screenshots/
-
----
-
 📸 Project Screenshots
 
 - EC2 Tag
@@ -160,3 +145,17 @@ AWS | EC2 | Lambda | EventBridge Scheduler | IAM | Python | Serverless Architect
     EC2 Instances
             ↓
     AutoSchedule=true
+
+📂 Project Structure
+
+ serverless-ec2-scheduler/
+│
+├── README.md
+├── lambda_function.py
+├── iam-policy.json
+│
+├── events/
+│   ├── start-event.json
+│   └── stop-event.json
+│
+└── screenshots/
