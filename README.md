@@ -17,13 +17,13 @@ The goal of this project is to automate EC2 instance management and help reduce 
 
 ## 🏗️ Architecture
 
-Amazon EventBridge Scheduler
+ -     Amazon EventBridge Scheduler
             ↓
-        AWS Lambda
+-        AWS Lambda
             ↓
-     EC2 Instances
+-     EC2 Instances
             ↓
-    AutoSchedule=true
+ -     AutoSchedule=true
 
 ---
 
