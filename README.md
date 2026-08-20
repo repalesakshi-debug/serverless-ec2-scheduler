@@ -17,7 +17,6 @@ The goal of this project is to automate EC2 instance management and help reduce 
 
 ## 🏗️ Architecture
 
-```text
 Amazon EventBridge Scheduler
             ↓
         AWS Lambda
@@ -42,11 +41,10 @@ The Lambda execution role uses least privilege permissions.
 
 ### Allowed Permissions
 
-- `ec2:DescribeInstances`
-- `ec2:StartInstances`
-- `ec2:StopInstances`
+- ec2:DescribeInstances
+- ec2:StartInstances
+- ec2:StopInstances
 
 Start and stop permissions are restricted to EC2 instances with:
 
-```text
 AutoSchedule=true
