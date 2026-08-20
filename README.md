@@ -145,11 +145,13 @@ AWS | EC2 | Lambda | EventBridge Scheduler | IAM | Python | Serverless Architect
     EC2 Instances
             ↓
     AutoSchedule=true
+```
 
 ---
 
 📂 Project Structure
 
+```text
  serverless-ec2-scheduler/
 │
 ├── README.md
@@ -161,3 +163,4 @@ AWS | EC2 | Lambda | EventBridge Scheduler | IAM | Python | Serverless Architect
 │   └── stop-event.json
 │
 └── screenshots/
+```
