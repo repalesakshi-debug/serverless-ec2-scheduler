@@ -146,6 +146,8 @@ AWS | EC2 | Lambda | EventBridge Scheduler | IAM | Python | Serverless Architect
             ↓
     AutoSchedule=true
 
+---
+
 📂 Project Structure
 
  serverless-ec2-scheduler/
