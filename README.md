@@ -54,11 +54,11 @@ Lambda dynamically identifies EC2 instances using this tag instead of hardcoding
 
 The Lambda function receives an action from the scheduler:
 
-Start
+- Start
 {
   "action": "start"
 }
-Stop
+- Stop
 {
   "action": "stop"
 }
@@ -101,7 +101,7 @@ Runs at 8:00 AM and starts the tagged EC2 instances.
 ---
 
 📂 Project Structure
-serverless-ec2-scheduler/
+- serverless-ec2-scheduler/
 │
 ├── README.md
 ├── lambda_function.py
